@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="jquery.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+<title>index</title>
+<style type="text/css">
+@import url("style.css");
+</style>
+</head>
+<!--
+課題
+＊サーバー運用
+☑️＊レスポンシブデザイン
+　・ハンバーガーメニュー＞バツにする
+　・文字サイズ調整
+　・ホバーをオフ
+＊ヘッダー改善
+＊画像の上に文字
+＊calcの活用
+☑️＊スクロールでフェードイン
+-->
+<body>
+	
+	<div class="headerwrap">
+<div class="header">
+	
+<p class="logo">
+	<img class="logo" src="images/logo.png">
+	</p>
+		
+<ul class="header-menu">
+<li class="gnav01"><a href=".">Top</a></li>
+<li class="gnav02"><a href=".news">News</a></li>
+<li class="gnav03"><a href=".product">Product</a></li>
+<li class="gnav04"><a href=".information">Information</a></li>
+</ul>
+	<a class="inst" href="https://www.instagram.com/?hl=ja" target="_blank">
+		<img src="images/glyph-logo_May2016.png">
+	</a>
+	
+</div>
+	</div>
+	
+	<!--スマホのヘッダー-->	
+	<p class="splogo">
+	<img class="splogo" src="images/logo.png">
+	</p>
+	<div class="spheader">
+
+	
+	<div class="hamburger" id="hamburger"></div>
+	
+		<div class="spnavwrap">
+	<ul class="spnav">
+<li class="spgnav01"><a href=".">Top</a></li>
+<li class="spgnav02"><a href=".news">News</a></li>
+<li class="spgnav03"><a href=".product">Product</a></li>
+<li class="spgnav04"><a href=".information">Information</a></li>
+</ul>
+			</div>
+		</div>
+	
+	
+	<div class="main">
+		<img class="main-img" src="images/4992091_m.jpg">
+		<div class="copywrap">
+			<img class="frame" src="images/124_04.png">
+		<p class="copy">
+		創業1945年。この街で愛され続けて75年。昔も今も変らず皆様のキレイをお手伝いさせていただいております。<br>
+各メーカーの代表的なブランドを取揃えて皆様のご来店をスタッフ一同笑顔でお待ちしております。
+		</p>
+			<img class="frame02" src="images/124_04.png">
+		</div>
+	</div>
+	
+	<div class="news" data-scroll>
+	<h1>News<br>お知らせ</h1>
+		<ul class="newses">
+		<li><a href="#">メディア情報</a></li>
+		<li><a href="">サマーセール開催の予告【0.0(月)〜0.0(月)】</a></li>
+		<li><a href="">HP開設のお知らせ</a></li>
+		</ul>
+	</div>
+	
+	<div class="product">
+	<h1>Product<br>取り扱いブランド</h1>
+    <!-- <div class="productp"> -->
+		<div class="products scroll">
+	<div class="albion">
+		<img class="productp" src="images/image_albion.jpg">
+		<p class="caption">素肌と生きる。<br>アルビオン</p>
+		<img class="productlogo" src="images/logo_al.png">
+		</div>
+	<div class="elegance">
+		<img class="productp" src="images/image_elegance.jpg">
+		<p class="caption">今がいちばん美しい。<br>エレガンス</p>
+		<img class="productlogo" src="images/logo_el.png">
+		</div>
+	<div class="ignis">
+		<img class="productp" src="images/image_ignis.jpg">
+		<p class="caption">生きた美しさを。<br>イグニス</p>
+		<img class="productlogo" src="images/logo_ig.png">
+		</div>
+	<div class="decorte">
+		<img class="productp" src="images/image_decorte.jpg">
+		<p class="caption">満ちてくる誇り。美の勲章。<br>コスメデコルテ</p>
+		<img class="productlogo" src="images/logo_dc.png">
+		</div>
+			</div>
+
+	 </div>
+		<!-- <div class="productlogo"> -->
+		
+		
+		
+		
+
+
+	
+		<div class="information">
+	<h1>Information<br>お店について</h1>
+			<div class="areadetail">
+				
+			
+<table>
+	<caption>基本情報</caption>
+<tbody>
+<tr>
+	<th>住所</th>
+	<td>神奈川県横浜市港南区上大岡西１－６－１ウイング上大岡３Ｆ</td>
+</tr>
+<tr>
+	<th>アクセス</th>
+	<td>京急本線上大岡駅より徒歩1分</td>
+</tr>
+<tr>
+	<th>電話番号</th>
+	<td>045-848-7951</td>
+</tr>
+<tr>
+	<th>E-Mailアドレス</th>
+	<td>takizawa160@sirius.ocn.ne.jp</td>
+</tr>	
+<tr>
+	<th>営業時間</th>
+	<td>10:00～20:00</td>
+</tr>
+<tr>
+	<th>詳細・その他</th>
+	<td>元日休み、他はテナント休業日に準ずる</td>
+</tr>
+<tr>
+	<th>席数</th>
+	<td>5席</td>
+</tr>
+<tr>
+	<th>取扱クレジットカード</th>
+	<td>SHISEIDO, VISA, Master, DC, JCB, UC, NICOS, AmericanExpress, DinersClub</td>
+</tr>
+</tbody>
+</table>
+	<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13007.47446891849!2d139.596393!3d35.408507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDI0JzMwLjYiTiAxMznCsDM1JzQ3LjAiRQ!5e0!3m2!1sja!2sjp!4v1625636029628!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+</div>
+	</div>
+		
+	
+	<div class="footer">
+		footer
+		<a href="top"><u>トップへ戻る</u></a>
+	</div>
+	
+</body>
+</html>
